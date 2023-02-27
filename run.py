@@ -25,7 +25,7 @@ def extract_feature(file_name, mfcc, chroma, mel):
   return result
 
   
-loaded_model = pickle.load(open('C:/STREAMLIT/modelForPrediction1.sav', 'rb')) 
+loaded_model = pickle.load(open('modelForPrediction1.sav', 'rb')) 
 
 
 Audio_file = st.file_uploader("Upload An Audio to analyze ", type=['mp3', 'wav'])
